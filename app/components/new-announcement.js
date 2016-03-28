@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         weather: this.get('weather'),
       };
       this.set('addNewAnnouncement', false);
-      this.sendAction('saveAnnouncement', params);
+      this.sendAction('saveAnnouncement2', params);
     }
   }
 });
